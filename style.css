@@ -1,0 +1,69 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-flow:wrap;
+    margin-top: 50px;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-left:5% !important;
+    
+    
+
+}
+img{
+    width: 100%;
+    height: 9rem!important;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center!important;
+    align-items: center;
+    
+
+}
+body{
+    /* background-color: rgb(53, 28, 130)!important; */
+    /* background-color: rgb(81, 148, 214)!important; */
+    background-image: linear-gradient(to right,#42275a ,#734b6d)  ;
+    /* background-image: linear-gradient(to left,#bdc3c7 , #2c3e50); */
+    /* background-image: linear-gradient(to left,#4568dc , #b06ab3 );*/
+    /* background-image: linear-gradient(to left,#000428 , #004e92 ); */
+    
+}
+#name{
+    background-color: black!important;
+    color: white;
+    width:20rem;
+    display: flex;
+    justify-content: center;
+    margin-left: -29px !important;;
+}
+.card{
+    overflow: hidden;
+    border: 2px solid white!important;
+    background: linear-gradient(to left,#ac9d47, #9198e5);
+    
+
+    
+}
+#title{
+    display: flex;
+    justify-content: center;
+    margin-left: -25px!important;
+    margin-right: -25px!important;
+    width: 100%;
+    color: white;
+    
+}
+span{
+    color:brown;
+    font-weight: bold;
+}
+.temp{
+    color: brown;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
